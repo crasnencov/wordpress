@@ -39,9 +39,66 @@
 	<div class="r"></div>
 	<div class="art-nav-center">
 	<ul class="art-menu">
-		<?php art_menu_items(); 
+<!--  		<li>
+			<a class="active" href="http://localhost/wordpress">
+				<span class="l"></span>
+				<span class="r"></span>
+				<span class="t">Home</span>
+			</a>
+		</li>
+		<li>
+			<span class="art-menu-separator"></span>
+		</li>
+-->
+		<li class="page_item page-item-7">
+			<a href="http://localhost/wordpress/?cat=5">
+				<span class="l"></span>
+				<span class="r"></span>
+				<span class="t">Новости</span>
+			</a>
+		</li>
+		<li>
+			<span class="art-menu-separator"></span>
+		</li>
+
+		<li class="page_item page-item-7">
+			<a href="http://localhost/wordpress/?cat=4">
+				<span class="l"></span>
+				<span class="r"></span>
+				<span class="t">Фото\Видео</span>
+			</a>
+		</li>
+		<li>
+			<span class="art-menu-separator"></span>
+		</li>
+		
+		<li class="page_item page-item-7">
+			<a href="http://localhost/wordpress/?page_id=26">
+				<span class="l"></span>
+				<span class="r"></span>
+				<span class="t">Контакты</span>
+			</a>
+		</li>
+		<li>
+			<span class="art-menu-separator"></span>
+		</li>
+		
+		<li class="page_item page-item-7">
+			<a href="http://localhost/wordpress/?page_id=7">
+				<span class="l"></span>
+				<span class="r"></span>
+				<span class="t">О клубе</span>
+			</a>
+		</li>
+		<li>
+			<span class="art-menu-separator"></span>
+		</li>
+           		
+
+<?php 
+//art_menu_items(); 
                 
-                wp_list_categories('title_li=');
+  //              wp_list_categories('title_li=');
 //                echo '<li><a class="active" href="?cat=5">Новости</a></li>';
 //                echo '<li><a class="active" href="?cat=4">Фото\Видео</a></li>';
                 ?>
